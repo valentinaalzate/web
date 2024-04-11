@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLITECNICO CHANGE</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    
+    <h1>POLITECNICO CHANGE</h1>
+    <form class="FORMULARIO">
+        <div class="container">
+            <div class="moneda">
+                <input class="mo" type="number" id="cantidad" placeholder="0" value="1"> 
+                <select id="moneda">
+                    <option value="EURO">EURO</option>
+                    <option value="DOLAR">DOLAR</option>
+                    <option value="REAL">REAL</option>
+                </select>
+                <br><br>
+                <div class="moneda">
+                    <input type="text" id="canti">
+                    <select id="otraMoneda">
+                        <option value="COP">COP</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cambio-container">
+                <button class="btn" id="taza" onclick="convertir()">cambiar</button>
+            </div>
+        </div>
+    
+    </form>
+</body>
+</html>
